@@ -1,0 +1,22 @@
+I have attached three files. The "copy_example" file is the data frame that has the information for each project. The copy_example_lookatfirst has all the information for all the projects. The excel file "Copy_04_20_2021" is the final output for one of the tables. Like you said, all the projects and their associated names should be stacked on top of each other in column A. The first tab in the copy_04_20_2021 shows that the range exceeds the number of rows for the table for 010. The second tab shows the range fitting into the table.
+
+During our call, we said that the code would run better if we grouped all the tasks and their associated names together like below.
+
+I used python to go from the table at copy_example_lookatfirst to the table at copy_example.
+I would like to paste in each of the tables like the one from copy_example into the copy_04_20_2021 table, stacked on top, (like Column A below).  I would also like one large table (inserted from column 6 to 17) with months, then the hours, then the months again, then the hours again all stacked on top of each other. I think there needs to be a loop that goes through  copy_example_lookatfirst and stacks the project name, then names, then the next project name all on top of each other and the same for the months and their associated number. Thanks.
+
+
+Column A                      Columns 6 - 17
+010                              Jan    Feb    March    April..
+last, first                        4
+last, first                                            4
+...                                  ....
+020                              Jan    Feb    March    April..
+last, first                      4
+last, first                                   4
+...
+030                              Jan    Feb    March    April..
+last, first                         4
+last, first                                                           4
+...
+
